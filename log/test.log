@@ -1,0 +1,50 @@
+Processing by StoryController#create as HTML
+  Parameters: {"story"=>{"something"=>"anything"}}
+Completed 500 Internal Server Error in 22ms
+Processing by StoryController#create as HTML
+  Parameters: {"story"=>{"something"=>"anything"}}
+Completed 500 Internal Server Error in 3ms
+Processing by StoryController#create as HTML
+  Parameters: {"story"=>{"something"=>"anything"}}
+Completed 500 Internal Server Error in 2ms
+Processing by StoryController#create as HTML
+  Parameters: {"story"=>{"something"=>"anything"}}
+Completed 500 Internal Server Error in 1ms
+Processing by StoryController#create as HTML
+  Parameters: {"story"=>{"something"=>"anything"}}
+Completed 500 Internal Server Error in 1ms
+Processing by StoryController#create as HTML
+  Parameters: {"story"=>{"something"=>"anything"}}
+Completed 500 Internal Server Error in 2ms
+Processing by StoryController#create as HTML
+  Parameters: {"story"=>{"something"=>"anything"}}
+Redirected to http://test.host/story/%23%5BDouble%20%22story%22%5D/edit
+Completed 302 Found in 1ms
+Processing by StoryController#create as HTML
+  Parameters: {"story"=>{"something"=>"anything"}}
+Redirected to http://test.host/story/%23%5BDouble%20%22story%22%5D/edit
+Completed 302 Found in 1ms
+Processing by StoryController#create as HTML
+  Parameters: {"story"=>{"something"=>"anything"}}
+Redirected to http://test.host/story/%23%5BDouble%20%22story%22%5D/edit
+Completed 302 Found in 1ms
+Processing by StoryController#create as HTML
+  Parameters: {"story"=>{"something"=>"anything"}}
+Redirected to http://test.host/story/%23%5BDouble%20%22story%22%5D/edit
+Completed 302 Found in 1ms
+Processing by StoryController#create as HTML
+  Parameters: {"story"=>{"something"=>"anything"}}
+Redirected to http://test.host/story/%23%5BDouble%20%22story%22%5D/edit
+Completed 302 Found in 1ms
+Processing by StoryController#create as HTML
+  Parameters: {"story"=>{"something"=>"anything"}}
+Redirected to http://test.host/story/%23%5BDouble%20%22story%22%5D/edit
+Completed 302 Found in 1ms
+Processing by StoryController#create as HTML
+  Parameters: {"story"=>{"something"=>"anything"}}
+Redirected to http://test.host/story/%23%5BDouble%20%22story%22%5D/edit
+Completed 302 Found in 1ms
+Processing by StoryController#create as HTML
+  Parameters: {"story"=>{"something"=>"anything"}}
+Redirected to http://test.host/story/%23%5BDouble%20%22story%22%5D/edit
+Completed 302 Found in 1ms
