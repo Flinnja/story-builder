@@ -43,7 +43,7 @@ RSpec.describe StoryController, type: :controller do
 
       it 'redirect to update page' do
         #assert
-        expect(response).to redirect_to(edit_story_path("story"))
+        expect(response).to redirect_to(edit_story_path(1))
       end
     end
   end

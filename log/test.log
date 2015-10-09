@@ -228,3 +228,35 @@ Processing by StoryController#update as HTML
   Parameters: {"story"=>{"newline"=>"new"}, "id"=>"1"}
 Redirected to http://test.host/story/%23%5BDouble%20%22story%22%5D/edit
 Completed 302 Found in 0ms
+Processing by StoryController#create as HTML
+  Parameters: {"story"=>{"something"=>"anything"}}
+Redirected to http://test.host/story/%23%5BDouble%20%22story%22%5D/edit
+Completed 302 Found in 1ms
+Processing by StoryController#update as HTML
+  Parameters: {"story"=>{"newline"=>"new"}, "id"=>"1"}
+Redirected to http://test.host/story/%23%5BDouble%20%22story%22%5D/edit
+Completed 302 Found in 1ms
+Processing by StoryController#create as HTML
+  Parameters: {"story"=>{"something"=>"anything"}}
+Redirected to http://test.host/story/%23%5BDouble%20%22story%22%5D/edit
+Completed 302 Found in 1ms
+Processing by StoryController#update as HTML
+  Parameters: {"story"=>{"newline"=>"new"}, "id"=>"1"}
+Redirected to http://test.host/story/%23%5BDouble%20%22story%22%5D/edit
+Completed 302 Found in 0ms
+Processing by StoryController#create as HTML
+  Parameters: {"story"=>{"something"=>"anything"}}
+Redirected to http://test.host/story/%23%5BDouble%20%22story%22%5D/edit
+Completed 302 Found in 1ms
+Processing by StoryController#update as HTML
+  Parameters: {"story"=>{"newline"=>"new"}, "id"=>"1"}
+Redirected to http://test.host/story/%23%5BDouble%20%22story%22%5D/edit
+Completed 302 Found in 0ms
+Processing by StoryController#create as HTML
+  Parameters: {"story"=>{"something"=>"anything"}}
+Redirected to http://test.host/story/%23%5BDouble%20%22story%22%5D/edit
+Completed 302 Found in 1ms
+Processing by StoryController#update as HTML
+  Parameters: {"story"=>{"newline"=>"new"}, "id"=>"1"}
+Redirected to http://test.host/story/1/edit
+Completed 302 Found in 0ms

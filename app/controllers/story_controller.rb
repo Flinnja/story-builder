@@ -14,7 +14,7 @@ class StoryController < ApplicationController
   def update
     @story = Story.find(params[:id])
     # if @story.update(@story).valid?
-      redirect_to edit_story_path(@story)
+      redirect_to edit_story_path(@story.id)
     # end
   end
 end

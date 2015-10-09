@@ -1,0 +1,336 @@
+
+
+Started GET "/" for ::1 at 2015-10-09 15:31:08 +1300
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 492ms (Views: 491.7ms)
+
+
+Started GET "/" for ::1 at 2015-10-09 15:31:09 +1300
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 24ms (Views: 24.2ms)
+
+
+Started GET "/" for ::1 at 2015-10-09 15:35:37 +1300
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (47.2ms)
+Completed 500 Internal Server Error in 51ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    4:   </header>
+    5:   <div class="row">
+    6:     <div class="col-sm-6">
+    7:       <%= form_for @character do |f| %>
+    8:         <div class="form-group">
+    9:           <%= f.label :name %>
+   10:           <%= f.text_field :name, class: "form-control" %>
+  app/views/site/index.html.erb:7:in `_app_views_site_index_html_erb__4432871361347973362_70319747732980'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.2ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (89.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (78.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (187.9ms)
+
+
+Started GET "/" for ::1 at 2015-10-09 15:36:02 +1300
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    4:   </header>
+    5:   <div class="row">
+    6:     <div class="col-sm-6">
+    7:       <%= form_for @story do |f| %>
+    8:         <div class="form-group">
+    9:           <%= f.label :name %>
+   10:           <%= f.text_field :name, class: "form-control" %>
+  app/views/site/index.html.erb:7:in `_app_views_site_index_html_erb__4432871361347973362_70319720231180'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.9ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (80.0ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (71.2ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (152.7ms)
+
+
+Started GET "/" for ::1 at 2015-10-09 15:38:29 +1300
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    4:   </header>
+    5:   <div class="row">
+    6:     <div class="col-sm-6">
+    7:       <%= form_for @story do |f| %>
+    8:   <!--       <div class="form-group">
+    9:           <%= f.label :name %>
+   10:           <%= f.text_field :name, class: "form-control" %>
+  app/views/site/index.html.erb:7:in `_app_views_site_index_html_erb__4432871361347973362_70319765746000'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (77.8ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (66.8ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (147.7ms)
+
+
+Started GET "/" for ::1 at 2015-10-09 15:40:20 +1300
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    4:   </header>
+    5:   <div class="row">
+    6:     <div class="col-sm-6">
+    7: <!--       <%= form_for @story do |f| %> -->
+    8:   <!--       <div class="form-group">
+    9:           <%= f.label :name %>
+   10:           <%= f.text_field :name, class: "form-control" %>
+  app/views/site/index.html.erb:7:in `_app_views_site_index_html_erb__4432871361347973362_70319749698580'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (81.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (67.7ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (155.7ms)
+
+
+Started GET "/" for ::1 at 2015-10-09 15:40:22 +1300
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    4:   </header>
+    5:   <div class="row">
+    6:     <div class="col-sm-6">
+    7: <!--       <%= form_for @story do |f| %> -->
+    8:   <!--       <div class="form-group">
+    9:           <%= f.label :name %>
+   10:           <%= f.text_field :name, class: "form-control" %>
+  app/views/site/index.html.erb:7:in `_app_views_site_index_html_erb__4432871361347973362_70319749698580'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (74.2ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (65.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (146.8ms)
+
+
+Started GET "/" for ::1 at 2015-10-09 15:40:48 +1300
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    4:   </header>
+    5:   <div class="row">
+    6:     <div class="col-sm-6">
+    7:       <%= form_for @story do |f| %>
+    8:         <div class="form-group">
+    9:           <%= f.label :name %>
+   10:           <%= f.text_field :name, class: "form-control" %>
+  app/views/site/index.html.erb:7:in `_app_views_site_index_html_erb__4432871361347973362_70319766894880'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (78.1ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (66.7ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (141.7ms)
+
+
+Started GET "/" for ::1 at 2015-10-09 15:41:03 +1300
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (11.6ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined local variable or method `story' for #<#<Class:0x007fe92c3abc78>:0x007fe92f726828>):
+    4:   </header>
+    5:   <div class="row">
+    6:     <div class="col-sm-6">
+    7:       <%= form_for story do |f| %>
+    8:         <div class="form-group">
+    9:           <%= f.label :name %>
+   10:           <%= f.text_field :name, class: "form-control" %>
+  app/views/site/index.html.erb:7:in `_app_views_site_index_html_erb__4432871361347973362_70319750049220'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (85.8ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (67.9ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (154.4ms)
+
+
+Started GET "/" for ::1 at 2015-10-09 15:41:13 +1300
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (66.3ms)
+Completed 500 Internal Server Error in 71ms
+
+ActionView::Template::Error (undefined method `to_key' for Story:Class):
+    4:   </header>
+    5:   <div class="row">
+    6:     <div class="col-sm-6">
+    7:       <%= form_for Story do |f| %>
+    8:         <div class="form-group">
+    9:           <%= f.label :name %>
+   10:           <%= f.text_field :name, class: "form-control" %>
+  app/views/site/index.html.erb:7:in `_app_views_site_index_html_erb__4432871361347973362_70319734366320'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (80.6ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (65.2ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (151.4ms)
+
+
+Started GET "/" for ::1 at 2015-10-09 15:41:52 +1300
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    4:   </header>
+    5:   <div class="row">
+    6:     <div class="col-sm-6">
+    7:       <%= form_for @story do |f| %>
+    8:         <div class="form-group">
+    9:           <%= f.label :name %>
+   10:           <%= f.text_field :name, class: "form-control" %>
+  app/views/site/index.html.erb:7:in `_app_views_site_index_html_erb__4432871361347973362_70319723354180'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.6ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (80.6ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (63.7ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (144.4ms)
+
+
+Started GET "/" for ::1 at 2015-10-09 15:50:20 +1300
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 237ms (Views: 237.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-09 15:50:21 +1300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-09 15:50:21 +1300
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-10-09 15:50:21 +1300
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-09 15:50:21 +1300
+
+
+Started GET "/" for ::1 at 2015-10-09 15:54:48 +1300
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 22.7ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-09 15:54:48 +1300
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-09 15:54:48 +1300
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-09 15:54:48 +1300
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-10-09 15:54:48 +1300
+
+
+Started GET "/" for ::1 at 2015-10-09 15:56:53 +1300
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 34ms (Views: 33.8ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-09 15:56:53 +1300
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-09 15:56:53 +1300
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-09 15:56:53 +1300
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-10-09 15:56:53 +1300
