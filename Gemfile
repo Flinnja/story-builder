@@ -11,6 +11,7 @@ gem 'mongoid', '~> 5.0.0.beta'
 
 
 group :development, :test do
+  gem 'faker', '~> 1.5.0'
   gem 'capybara'
   gem 'rspec-rails', '~> 3.0'
   gem 'factory_girl_rails'
